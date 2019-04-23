@@ -1872,6 +1872,7 @@ GameObject:
   m_Component:
   - component: {fileID: 813920593}
   - component: {fileID: 813920594}
+  - component: {fileID: 813920595}
   m_Layer: 0
   m_Name: 4Gun
   m_TagString: Untagged
@@ -1939,6 +1940,19 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+--- !u!114 &813920595
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 813920592}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a7113e60195bbe0459714145dd031c2e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  canvas: {fileID: 1063423657}
+  mainCamera: {fileID: 1676396507}
 --- !u!1 &835102470
 GameObject:
   m_ObjectHideFlags: 0
@@ -1948,6 +1962,7 @@ GameObject:
   m_Component:
   - component: {fileID: 835102471}
   - component: {fileID: 835102472}
+  - component: {fileID: 835102473}
   m_Layer: 0
   m_Name: 3Gun
   m_TagString: Untagged
@@ -2017,6 +2032,19 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+--- !u!114 &835102473
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 835102470}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a7113e60195bbe0459714145dd031c2e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  canvas: {fileID: 1063423657}
+  mainCamera: {fileID: 1676396507}
 --- !u!1 &844790743
 GameObject:
   m_ObjectHideFlags: 0
@@ -3119,6 +3147,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1491728170}
   - component: {fileID: 1491728171}
+  - component: {fileID: 1491728172}
   m_Layer: 0
   m_Name: 2Gun
   m_TagString: Untagged
@@ -3184,6 +3213,19 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+--- !u!114 &1491728172
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1491728169}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a7113e60195bbe0459714145dd031c2e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  canvas: {fileID: 1063423657}
+  mainCamera: {fileID: 1676396507}
 --- !u!1 &1558216595
 GameObject:
   m_ObjectHideFlags: 0
@@ -3538,6 +3580,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1781574296}
   - component: {fileID: 1781574297}
+  - component: {fileID: 1781574298}
   m_Layer: 0
   m_Name: 1000Gun
   m_TagString: Untagged
@@ -3606,6 +3649,19 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+--- !u!114 &1781574298
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1781574295}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a7113e60195bbe0459714145dd031c2e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  canvas: {fileID: 1063423657}
+  mainCamera: {fileID: 1676396507}
 --- !u!1 &1786143035
 GameObject:
   m_ObjectHideFlags: 0
@@ -4703,6 +4759,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2097667790}
   - component: {fileID: 2097667791}
+  - component: {fileID: 2097667792}
   m_Layer: 0
   m_Name: SGun
   m_TagString: Untagged
@@ -4769,6 +4826,19 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+--- !u!114 &2097667792
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2097667789}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a7113e60195bbe0459714145dd031c2e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  canvas: {fileID: 1063423657}
+  mainCamera: {fileID: 1676396507}
 --- !u!1 &2121682019
 GameObject:
   m_ObjectHideFlags: 0

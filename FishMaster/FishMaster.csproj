@@ -235,7 +235,13 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\BulletAttr.cs" />
+    <Compile Include="Assets\Scripts\Effects\Ef_AutoMove.cs" />
+    <Compile Include="Assets\Scripts\Effects\Ef_AutoRatate.cs" />
     <Compile Include="Assets\Scripts\Effects\Ef_WaterWave.cs" />
+    <Compile Include="Assets\Scripts\FishAttr.cs" />
+    <Compile Include="Assets\Scripts\FishMaker.cs" />
+    <Compile Include="Assets\Scripts\GameController.cs" />
     <Compile Include="Assets\Scripts\GunFollow.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

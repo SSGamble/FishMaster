@@ -22,6 +22,7 @@ GameObject:
   - component: {fileID: 212136175569586908}
   - component: {fileID: 95430797814938544}
   - component: {fileID: 61180926724047986}
+  - component: {fileID: 114836262602748192}
   m_Layer: 0
   m_Name: p21
   m_TagString: Untagged
@@ -84,6 +85,19 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
+--- !u!114 &114836262602748192
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1249148189865774}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbf206c6a1c9a3b42aa77f450467f2a3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 10
+  damage: 0
 --- !u!212 &212136175569586908
 SpriteRenderer:
   m_ObjectHideFlags: 1

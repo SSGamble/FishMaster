@@ -98,6 +98,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 12
   damage: 0
+  webPre: {fileID: 1202627169590212, guid: 450da302da2d2424cbf0472fac4e6c05, type: 2}
 --- !u!212 &212386031551967374
 SpriteRenderer:
   m_ObjectHideFlags: 1

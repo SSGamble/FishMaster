@@ -238,11 +238,13 @@
     <Compile Include="Assets\Scripts\BulletAttr.cs" />
     <Compile Include="Assets\Scripts\Effects\Ef_AutoMove.cs" />
     <Compile Include="Assets\Scripts\Effects\Ef_AutoRatate.cs" />
+    <Compile Include="Assets\Scripts\Effects\Ef_DestroySelf.cs" />
     <Compile Include="Assets\Scripts\Effects\Ef_WaterWave.cs" />
     <Compile Include="Assets\Scripts\FishAttr.cs" />
     <Compile Include="Assets\Scripts\FishMaker.cs" />
     <Compile Include="Assets\Scripts\GameController.cs" />
     <Compile Include="Assets\Scripts\GunFollow.cs" />
+    <Compile Include="Assets\Scripts\WebAttr.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="GenerateTargetFrameworkMonikerAttribute" />

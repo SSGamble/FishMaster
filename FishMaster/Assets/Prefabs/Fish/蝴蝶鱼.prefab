@@ -117,8 +117,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2472d30a2ff766740912b30fec8c4890, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  hp: 500
   maxNum: 3
   maxSpeed: 4
+  diePre: {fileID: 1734428640400308, guid: a48dd282f562eb54ca0d6ac060c4cde9, type: 2}
 --- !u!212 &212400054246867034
 SpriteRenderer:
   m_ObjectHideFlags: 1

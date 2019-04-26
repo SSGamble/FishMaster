@@ -118,9 +118,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hp: 500
+  exp: 350
+  gold: 300
   maxNum: 3
   maxSpeed: 4
   diePre: {fileID: 1536102446404294, guid: e7695d4de230e514f80d0081c2f30d45, type: 2}
+  goldPre: {fileID: 1125591468603502, guid: f5badb5f84f284d418a118099b071b24, type: 2}
 --- !u!212 &212977388664492312
 SpriteRenderer:
   m_ObjectHideFlags: 1

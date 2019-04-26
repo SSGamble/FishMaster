@@ -235,15 +235,23 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\AudioManager.cs" />
     <Compile Include="Assets\Scripts\BulletAttr.cs" />
     <Compile Include="Assets\Scripts\Effects\Ef_AutoMove.cs" />
     <Compile Include="Assets\Scripts\Effects\Ef_AutoRatate.cs" />
     <Compile Include="Assets\Scripts\Effects\Ef_DestroySelf.cs" />
+    <Compile Include="Assets\Scripts\Effects\Ef_HideSelf.cs" />
+    <Compile Include="Assets\Scripts\Effects\Ef_MoveTo.cs" />
+    <Compile Include="Assets\Scripts\Effects\Ef_PlayEffect.cs" />
+    <Compile Include="Assets\Scripts\Effects\Ef_SeaWave.cs" />
     <Compile Include="Assets\Scripts\Effects\Ef_WaterWave.cs" />
     <Compile Include="Assets\Scripts\FishAttr.cs" />
     <Compile Include="Assets\Scripts\FishMaker.cs" />
     <Compile Include="Assets\Scripts\GameController.cs" />
+    <Compile Include="Assets\Scripts\GoldCollect.cs" />
     <Compile Include="Assets\Scripts\GunFollow.cs" />
+    <Compile Include="Assets\Scripts\MainSceneUI.cs" />
+    <Compile Include="Assets\Scripts\StartSceneUI.cs" />
     <Compile Include="Assets\Scripts\WebAttr.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

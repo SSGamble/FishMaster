@@ -25,6 +25,7 @@ GameObject:
   - component: {fileID: 50618988963696342}
   - component: {fileID: 114727523252355078}
   - component: {fileID: 114585636539359590}
+  - component: {fileID: 114747230126044260}
   m_Layer: 0
   m_Name: "\u94F6\u9CA8"
   m_TagString: Fish
@@ -119,9 +120,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hp: 1000
+  exp: 1500
+  gold: 1000
   maxNum: 2
   maxSpeed: 3
   diePre: {fileID: 1034666253058994, guid: 2364968f8f8d25d489c96fcf5baffee7, type: 2}
+  goldPre: {fileID: 1125591468603502, guid: f5badb5f84f284d418a118099b071b24, type: 2}
 --- !u!114 &114727523252355078
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -134,6 +138,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   effectPrefabs:
+  - {fileID: 100002, guid: b7d55ddc18bf5dd4fb81c71aa88cd113, type: 2}
+--- !u!114 &114747230126044260
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1714755652220200}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3def95988442fdb48a5b31d275cb8d1e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  effectPres:
   - {fileID: 100002, guid: b7d55ddc18bf5dd4fb81c71aa88cd113, type: 2}
 --- !u!212 &212778862042560766
 SpriteRenderer:
